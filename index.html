@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Del Lazarillo de Tormes a un recurso web con datos</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="contador.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Del Lazarillo de Tormes a un recurso web con datos</h1>
+    <p>Análisis del prólogo y los siete tratados de <cite>lazarillo_limpio.txt</cite>.</p>
+  </header>
+  <main>
+    <section class="contenedor" aria-labelledby="titulo-resultados">
+      <h2 id="titulo-resultados">Resultados del análisis</h2>
+      <p id="estado" role="status" aria-live="polite">Cargando el texto...</p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Métrica</th>
+            <th scope="col">Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Total de palabras</th>
+            <td id="total-palabras">—</td>
+          </tr>
+          <tr>
+            <th scope="row">Total de vocales</th>
+            <td id="total-vocales">—</td>
+          </tr>
+          <tr>
+            <th scope="row">Total de consonantes</th>
+            <td id="total-consonantes">—</td>
+          </tr>
+          <tr>
+            <th scope="row">Apariciones de «Lázaro»</th>
+            <td id="apariciones-lazaro">—</td>
+          </tr>
+          <tr>
+            <th scope="row">Apariciones de «ciego»</th>
+            <td id="apariciones-ciego">—</td>
+          </tr>
+          <tr>
+            <th scope="row">Apariciones de «clérigo»</th>
+            <td id="apariciones-clerigo">—</td>
+          </tr>
+          <tr>
+            <th scope="row">Apariciones de «arcipreste»</th>
+            <td id="apariciones-arcipreste">—</td>
+          </tr>
+          <tr>
+            <th scope="row">Apariciones de «mi mujer»</th>
+            <td id="apariciones-mi-mujer">—</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
